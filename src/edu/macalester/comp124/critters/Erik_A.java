@@ -22,6 +22,14 @@ public class Erik_A extends Critter {
             e.printStackTrace();
         }
 
+        GImage mothra = null;
+        try {
+            mothra = new GImage(ImageIO.read(getClass().getResource("/Godzilla_Save_The_Earth_MOTHRA_IMAGO.png")));
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
         GImage flame = null;
         try {
             flame = new GImage(ImageIO.read(getClass().getResource("/Flame_Thrower_1.png")));
@@ -41,8 +49,10 @@ public class Erik_A extends Critter {
         addLeg(new Leg(leftLeg, 5));
 
         getGraphics().add(godzilla);
+        getGraphics().add(mothra);
         getGraphics().add(flame);
         flame.move(39, 46);
+        mothra.move(38, 10);
 
         Eye rightEye = new Eye(7, 0.5, 0.18, Color.RED);
         Eye leftEye = new Eye(3.5, 0.35, 0.18, Color.RED);
