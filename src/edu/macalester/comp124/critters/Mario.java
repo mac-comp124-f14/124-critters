@@ -27,7 +27,7 @@ public class Mario extends Critter{
        
 		GImage mario = null;
 		try {
-			mario = new GImage(ImageIO.read(getClass().getResource("/Mario.png")));
+			mario = new GImage(ImageIO.read(getClass().getResource("/mario.png")));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
