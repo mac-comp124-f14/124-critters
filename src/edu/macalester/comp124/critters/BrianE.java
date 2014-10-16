@@ -63,7 +63,7 @@ public class BrianE extends Critter {
         GLabel label = new GLabel("DEMON",-30,-10);
         getGraphics().add(label);*/
 
-        Eye eye = new Eye(40,0.5,0.5,Color.RED);
-        addEye(eye,60,0);
+        Eye eye = new Eye(100,0.5,0.1,Color.RED);
+        addEye(eye,100,0);
     }
 }
