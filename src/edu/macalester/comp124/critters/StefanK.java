@@ -15,7 +15,7 @@ public class StefanK extends Critter {
     @Override
     protected void buildGraphics() {
 
-
+        //bla
         GImage slash = null;
         try {
             slash = new GImage(ImageIO.read(getClass().getResource("/slash.png")));
