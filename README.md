@@ -8,7 +8,7 @@ Today's lab is a bit of silly fun in the name of practicing graphics programming
 **When you get started, do not fork this repository. Check out the master copy directly.**
 
 This project provides a framework for building little critters that wander around the screen.
-Take a look at BoxBot, RoundBug, and LLCoolJ as two examples, then create some new Critter subclasses of your own!
+Take a look at BoxBot, RoundBug, and Mario as examples, then create some new Critter subclasses of your own!
 The code is written to automatically detect new critters.
 
 I recommend beginning by copying and modifying one of the existing critters.
