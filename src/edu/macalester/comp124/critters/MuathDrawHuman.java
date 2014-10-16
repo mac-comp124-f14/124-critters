@@ -32,8 +32,8 @@ public class MuathDrawHuman extends Critter {
         movingBret = new MuathHuman();
         //getGraphics().add(movingBret, 200, 100);
 
-        GRect leftLeg2 = new GRect(248, 220, 18, 30);
-        GRect rightLeg2 = new GRect(275, 220, 18, 30);
+        GRect leftLeg2 = new GRect(248, 280, 18, 30);
+        GRect rightLeg2 = new GRect(275, 280, 18, 30);
         leftLeg2.setFilled(true);
         leftLeg2.setFillColor(Color.green);
         rightLeg2.setFilled(true);
