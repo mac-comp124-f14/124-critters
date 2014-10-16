@@ -25,16 +25,8 @@ public class JenniS extends Critter {
 
 
         getGraphics().add(foxCritter);
+
+        addEye(new Eye(35, 0.26, 0.18, Color.BLUE), 65, 80);
+        addEye(new Eye(35, 0.26, 0.18, Color.BLUE), 125, 80);
     }
 }
-
-
-//        addEye(new Eye(10, 0.26, 0.18, Color.RED), 85, 70);
-//        addEye(new Eye(10, 0.26, 0.18, Color.RED), 110, 70);
-//    }
-//
-//
-//    private static final Color
-//            strokeColor = new Color(0, 0, 255),
-//            fillColor = new Color(100, 0,0);
-//}
