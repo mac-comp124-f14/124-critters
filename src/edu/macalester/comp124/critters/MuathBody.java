@@ -20,6 +20,10 @@ public class MuathBody extends GCompound {
         GLabel label2 = new GLabel("My name", -3, 120);
         GLabel label3 = new GLabel("is", 12.5, 140);
         GLabel label4 = new GLabel("BRET! ", 7 , 160);
+        label.setFont("Serif-100");
+        label2.setFont("Serif-100");
+        label3.setFont("Serif-100");
+        label4.setFont("Serif-100");
         label4.setColor(Color.black);
 
         add(body);
