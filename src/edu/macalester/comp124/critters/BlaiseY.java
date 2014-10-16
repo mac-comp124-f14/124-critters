@@ -7,7 +7,7 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.IOException;
 
-public class Pikachu extends Critter{
+public class BlaiseY extends Critter{
 
     @Override
     protected void buildGraphics() {
