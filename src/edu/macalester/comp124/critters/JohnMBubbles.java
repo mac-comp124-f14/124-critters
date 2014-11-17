@@ -18,7 +18,7 @@ public class JohnMBubbles extends Critter {
         } catch (IOException e){
             e.printStackTrace();
         }
-        bubble.scale(.6,.6);
+        bubble.scale(.5,.5);
         getGraphics().add(bubble);
     }
 }
